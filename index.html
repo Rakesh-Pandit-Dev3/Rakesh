@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body class="light-mode">
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">Portfolio</div>
+            <div class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div id="hero-background"></div>
+        <div class="hero-content">
+            <h1>Rakesh Pandit</h1>
+            <p>Frontend Developer & Web Designer</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                <a href="#about" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="section-header">
+            <h2>About Me</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="/placeholder.svg?height=200&width=200" alt="Profile Photo" class="profile-photo">
+            </div>
+            <div class="about-text">
+                <p>Aspiring Frontend Developer with a passion for creating clean, user-friendly websites. Eager to learn and grow in the field of web development, with a focus on mastering HTML, CSS, and JavaScript. Committed to delivering visually appealing and responsive designs while collaborating with teams to bring ideas to life.</p>
+                <div class="personal-info">
+                    <div class="info-item">
+                        <span class="info-label">Location:</span>
+                        <span class="info-value">Garuda-6 Rautahat, Nepal</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Email:</span>
+                        <span class="info-value">rakeshpanditdeveloper@gmail.com</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Education:</span>
+                        <span class="info-value">Secondary Education (2016)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <div class="section-header">
+            <h2>Work Experience</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="experience-grid">
+            <div class="experience-card">
+                <div class="experience-header">
+                    <h3>Web Developer</h3>
+                    <span class="date">2022 - Present</span>
+                </div>
+                <p class="company">Freelancing, Nepal</p>
+                <ul class="experience-details">
+                    <li>Frontend Focus: Building responsive and intuitive websites using HTML, CSS, and JavaScript.</li>
+                    <li>Learning-Driven: Actively expanding skills through personal projects and online resources.</li>
+                    <li>Attention to Detail: Ensuring clean code and pixel-perfect design implementation.</li>
+                </ul>
+            </div>
+            <div class="experience-card">
+                <div class="experience-header">
+                    <h3>Administrative Assistant</h3>
+                    <span class="date">2021 - 2022</span>
+                </div>
+                <p class="company">Nepal IT Solutions, Birgunj</p>
+                <ul class="experience-details">
+                    <li>Managed high-volume data entry operations, maintaining error-free databases.</li>
+                    <li>Generated detailed reports using Microsoft Excel.</li>
+                    <li>Coordinated with cross-functional teams to streamline workflows.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="section-header">
+            <h2>Skills & Tools</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="skills-container">
+            <div class="skills-group">
+                <h3>Development Skills</h3>
+                <div class="skill-bars">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>HTML/CSS</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>JavaScript</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>React.js</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Node.js</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 60%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <i class="fab fa-git-alt"></i>
+                    <h4>Git & GitHub</h4>
+                </div>
+                <div class="tool-card">
+                    <i class="fab fa-wordpress"></i>
+                    <h4>WordPress</h4>
+                </div>
+                <div class="tool-card">
+                    <i class="fas fa-code"></i>
+                    <h4>VS Code</h4>
+                </div>
+                <div class="tool-card">
+                    <i class="fab fa-figma"></i>
+                    <h4>Figma</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="section-header">
+            <h2>Get in Touch</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h4>Phone</h4>
+                        <p>+977-9806812433</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <p>rakeshpanditdeveloper@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>Location</h4>
+                        <p>Garuda-6 Rautahat, Nepal</p>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="Subject" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Rakesh Pandit</h3>
+                <p>Frontend Developer & Web Designer</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-phone"></i> +977-9806812433</p>
+                <p><i class="fas fa-envelope"></i> rakeshpanditdeveloper@gmail.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> Garuda-6 Rautahat, Nepal</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Rakesh Pandit. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
